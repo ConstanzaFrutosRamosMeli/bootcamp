@@ -31,7 +31,7 @@ public class StringUtil
 	public static String[] toStringArray(int arr[])
 	{
 		int length = arr.length;
-		String result[] = new String[length];
+		String[] result = new String[length];
 		for (int i = 0; i < length; ++i) {
 			result[i] = String.valueOf(arr[i]);
 		}
