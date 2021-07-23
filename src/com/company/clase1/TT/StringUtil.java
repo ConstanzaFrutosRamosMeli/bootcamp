@@ -1,11 +1,11 @@
-package meli.ejerc;
+package com.company.clase1.TT;
 
 public class StringUtil
 {
 	// Retorna una cadena compuesta por n caracteres c
 	public static String replicate(char c,int n)
 	{
-		//Implementación
+		return "";
 	}
 	
 	// Retorna una cadena de longitud n, compuesta por s
@@ -13,21 +13,22 @@ public class StringUtil
 	// para completar la longitud mencionada
 	public static String lpad(String s,int n,char c)
 	{
-		//Implementación
+		return "";
 	}
 	
 	// Retorna un String[] conteniendo los elementos de arr
     // representados como cadenas de caracteres
 	public static String[] toStringArray(int arr[])
 	{
-		//Implementación
+		return new String[1];
 	}
 	
 	// Retorna un String[] conteniendo los elementos de arr
     // representados como cadenas de caracteres
 	public static int[] toIntArray(String arr[])
 	{
-		//Implementación
+		int numeros[] = new int[1];
+		return numeros;
 	}
 	
 	
@@ -35,7 +36,7 @@ public class StringUtil
 	// de caracteres del array arr
 	public static int maxLength(String arr[])
 	{
-		//Implementación
+		return 0;
 	}
 	
 	// Completa los elemento del arr agregando caracteres c
