@@ -5,7 +5,11 @@ public class StringUtil
 	// Retorna una cadena compuesta por n caracteres c
 	public static String replicate(char c,int n)
 	{
-		return "";
+		StringBuilder result = new StringBuilder();
+		for (int i = 0; i < n; ++i) {
+			result.append(c);
+		}
+		return result.toString();
 	}
 	
 	// Retorna una cadena de longitud n, compuesta por s
