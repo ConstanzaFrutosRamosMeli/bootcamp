@@ -42,7 +42,11 @@ public class StringUtil
     // representados como cadenas de caracteres
 	public static int[] toIntArray(String arr[])
 	{
-		int numeros[] = new int[1];
+		int length = arr.length;
+		int[] numeros = new int[length];
+		for (int i = 0; i < length; ++i) {
+			numeros[i] = Integer.parseInt(arr[i]);
+		}
 		return numeros;
 	}
 	
