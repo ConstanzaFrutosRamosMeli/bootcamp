@@ -27,7 +27,7 @@ public class Ejercicio3 {
 
         Scanner scanner = new Scanner(System.in);
         int n = 0;
-        
+
         while (n != -1) {
             System.out.print("Introduzca un número: ");
             n = scanner.nextInt();
