@@ -15,9 +15,15 @@ public class StringUtil
 	// Retorna una cadena de longitud n, compuesta por s
 	// y precedida de tantos caracteres c como sea necesario
 	// para completar la longitud mencionada
-	public static String lpad(String s,int n,char c)
+	public static String lpad(String s, int n, char c)
 	{
-		return "";
+		int charsToAdd = n - s.length();
+		StringBuilder result = new StringBuilder();
+		for (int i = 0; i < charsToAdd; ++i) {
+			result.append(c);
+		}
+		result.append(s);
+		return result.toString();
 	}
 	
 	// Retorna un String[] conteniendo los elementos de arr
