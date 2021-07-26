@@ -55,7 +55,12 @@ public class StringUtil
 	// de caracteres del array arr
 	public static int maxLength(String arr[])
 	{
-		return 0;
+		int maxLength = 0;
+		for (String aux : arr) {
+			if (aux.length() > maxLength)
+				maxLength = aux.length();
+		}
+		return maxLength;
 	}
 	
 	// Completa los elemento del arr agregando caracteres c
