@@ -18,12 +18,7 @@ public class StringUtil
 	public static String lpad(String s, int n, char c)
 	{
 		int charsToAdd = n - s.length();
-		StringBuilder result = new StringBuilder();
-		for (int i = 0; i < charsToAdd; ++i) {
-			result.append(c);
-		}
-		result.append(s);
-		return result.toString();
+		return replicate(c, charsToAdd) + s;
 	}
 	
 	// Retorna un String[] conteniendo los elementos de arr
